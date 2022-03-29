@@ -1,0 +1,39 @@
+rgb(47,21,76)
+
+* {box-sizing: border-box;}
+
+.col {
+  width:15%;
+  background: red;
+  border: 1px solid #000;
+  transition: .5s ease-in-out;
+  padding: 20px;
+}
+.col p {
+  display: none;
+}
+.col:hover {
+  width: 40%;
+}
+.col:hover p {
+  display: block;
+}
+
+.wrapper {
+  display: flex;
+   background: yellow;
+}
+
+<div class="wrapper">
+  <div class="col">one
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolor incidunt repellat doloribus itaque adipisci dolores ab temporibus ullam error officia pariatur laboriosam, velit accusamus, rem deserunt ipsum labore consequuntur.</p>
+  </div>
+  <div class="col">two
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolor incidunt repellat doloribus itaque adipisci dolores ab temporibus ullam error officia pariatur laboriosam, velit accusamus, rem deserunt ipsum labore consequuntur.</p>
+  </div>
+  <div class="col active">three
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolor incidunt repellat doloribus itaque adipisci dolores ab temporibus ullam error officia pariatur laboriosam, velit accusamus, rem deserunt ipsum labore consequuntur.</p></div>
+  <div class="col">four
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolor incidunt repellat doloribus itaque adipisci dolores ab temporibus ullam error officia pariatur laboriosam, velit accusamus, rem deserunt ipsum labore consequuntur.</p></div>
+  <div class="col">fivr   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolor incidunt repellat doloribus itaque adipisci dolores ab temporibus ullam error officia pariatur laboriosam, velit accusamus, rem deserunt ipsum labore consequuntur.</p></div>
+</div>
